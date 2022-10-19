@@ -26,7 +26,7 @@ def write_cover_letter():
         f.write('Hello \n \n')
         f.write(f'I am writing to apply for the {position} position at {company_name}. \n \n')
         f.write(f'I have experience with {languages_frameworks} and I am confident that I can make a valuable contribution to your team. \n \n')
-        f.write(f'{build_content(terms)}\n \n')
+        f.write(f'{build_content(terms)}\n')
         f.write(f'I look forward to hearing from you. \n')
         f.write(f'Kind regards, \n')
         f.write(f'{your_name}')
